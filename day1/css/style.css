@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: auto;
+   
+    background-color: rgb(20, 20, 20, 0.9);
+}
+
+.logo {
+    padding: 10px 10px;
+    display: inline-block
+}
+
+
+button.menu-toggle {
+    display: none;
+    
+}
+
+nav {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li:nth-child(1) {
+    padding-left: 80px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Oswald;
+}
+
+
+li a:hover {
+    display: block;
+    color: rgb(20, 20, 20, 0.9);
+    background-color: steelblue;
+}
+
+.selected {
+    display: block;
+    color: rgb(20,20,20,0.9);
+    background-color: steelblue;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Oswald;
+}
+
+div.section {
+    background: url(https://img.freepik.com/free-photo/80s-futuristic-retro-synthwave_122462-32.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 400px;
+
+    display: grid;
+
+    grid-template-columns: 1;
+    
+    grid-template-areas: 
+        "captionText"
+        "captionButton"
+    ;
+}
+
+
+.caption{
+    grid-area: captionText;
+    font-size: 29px;
+    color: whitesmoke;
+}
+
+.caption-button {
+    grid-area: captionButton; 
+}
+ 
+.buttonAbout{
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgb(189, 51, 253);
+    color: whitesmoke;
+    border: none;
+}
+
+
+@media (max-width: 1190px) {
+    .autenticacao {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    nav.menu {
+        display: none;
+    }
+
+    button.menu-toggle {
+        position: absolute;
+        display: inline-block;
+        right: 0;
+        top: 3.6%;
+        padding: 15px;
+        margin-right: 10px;
+        color: whitesmoke;
+        background-color: rgba(78, 78, 78, 0.4);
+        border: solid 0.5px gainsboro;
+    }
+}
+
