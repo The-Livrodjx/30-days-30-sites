@@ -1,21 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    
 }
 
-header {
+body {
+    color: whitesmoke;
+    background-color: #222;
+}
+
+
+header.cabecalho {
+    position: fixed;
+    z-index: 100;
     width: 100%;
-    height: auto;
-   
-    background-color: rgb(20, 20, 20, 0.9);
+    min-height: 75px;
+    background-color: #222;
 }
-
-.logo {
-    padding: 10px 10px;
-    display: inline-block
-}
-
 
 button.menu-toggle {
     display: none;
@@ -23,6 +31,9 @@ button.menu-toggle {
 }
 
 nav {
+    position: fixed;
+    width: 100%;
+    min-height: 75px;
     display: inline-block;
 }
 
@@ -38,15 +49,11 @@ li {
     float: left;
 }
 
-li:nth-child(1) {
-    padding-left: 80px;
-}
-
 li a {
     display: block;
-    color: white;
+    color: whitesmoke;
     text-align: center;
-    padding: 14px 25px;
+    padding: 14px 35px;
     text-decoration: none;
     font-size: 25px;
     font-family: Oswald;
@@ -57,6 +64,17 @@ li a:hover {
     display: block;
     color: rgb(20, 20, 20, 0.9);
     background-color: steelblue;
+}
+
+li:nth-child(1) {
+    padding-right: 80px;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li:nth-child(2) {
+    padding-left: 100px;
 }
 
 .selected {
@@ -71,43 +89,301 @@ li a:hover {
 }
 
 div.section {
-    background: url(https://img.freepik.com/free-photo/80s-futuristic-retro-synthwave_122462-32.jpg?size=626&ext=jpg);
+    background: url("../images/backgroud.jpg");
+    opacity: 0.97;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-height: 575px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-1{
+    color: white;
+    width: 24em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+section.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+section.about h1 {
+    font-size: 30px; 
+    font-weight: 500;
+}
+
+.imageCaption {
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+    width: 900px;
+}
+
+.imageCaption h1 {
+    font-weight: 400;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.description {
+    display: block;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+section.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 60px 5%;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+    background-color: white;
+}
+
+.card-margin {
+    position: relative;
+    margin-top: -80px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 275px;
+    grid-template-rows: 200px 200px ;
+    grid-template-areas: "image" "text";
+    margin-right: 60px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    font-family: roboto;
+    text-align: center;
+    padding: 0px 0px;
+    
+}
+
+.card-image {
+    grid-area: image;
+}
+.card-text {
+    grid-area: text;
+}
+
+.card-image {
+    grid-area: image;
+    background: url("../images/backgroud.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+
+.card-text p {
+    color: grey;
+    font-size:15px;
+    font-weight: 300;
+}
+.card-text h2 {
+    color: rgb(255, 7, 110);
+    margin-top:0px;
+    font-size:28px;
+}
+
+section.skills {
+    margin: 50px 0px;
+    width: 100%;
+    height: auto;
+}
+
+section.skills > h2 {
+    font-size: 30px; 
+    font-weight: 500;
+    text-align: center;
+}
+
+.skill-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 275px;
+    grid-template-rows: 80px 200px 200px ;
+    grid-template-areas: "name" "image" "text";
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.skill h1 {
+    grid-area: name;
+    font-size: 25px; 
+    font-weight: 500;
+}
+
+.skill-image img {
+    grid-area: image;
+    width: 150px;
+    height: 150px;
+}
+
+.skill-description {
+    grid-area: text;
+}
+
+section.contact {
     width: 100%;
     min-height: 400px;
-
-    display: grid;
-
-    grid-template-columns: 1;
+    background-color: white;
     
-    grid-template-areas: 
-        "captionText"
-        "captionButton"
-    ;
 }
 
-
-.caption{
-    grid-area: captionText;
-    font-size: 29px;
-    color: whitesmoke;
+.contact-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.caption-button {
-    grid-area: captionButton; 
-}
- 
-.buttonAbout{
-    width: 150px;
-    height: 45px;
-    border-radius: 8px;
-    background-color: rgb(189, 51, 253);
-    color: whitesmoke;
-    border: none;
+.contact-page h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #222;
+    padding-bottom: 50px;
 }
 
+.contact-page form {
+    margin-top: 120px;
+    margin-bottom: 80px;
+    width: 475px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #222;
+}
+
+textarea.form-control {
+    height: 120px;
+}
+
+button.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #222;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > span {
+    font-size: 20px;
+    font-weight: 500;
+}
 
 @media (max-width: 1190px) {
     .autenticacao {
@@ -132,4 +408,3 @@ div.section {
         border: solid 0.5px gainsboro;
     }
 }
-
