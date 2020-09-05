@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Parisienne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+header.cabecalho {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    min-height: 75px;
+    background-color: white;
+}
+
+button.menu-toggle {
+    display: none;
+    
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    min-height: 65px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: rgb(2, 208, 245);
+    text-align: center;
+    padding: 14px 35px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Oswald;
+}
+
+#brand {
+    position: absolute;
+    left: 0;
+    padding: 12px 25px;
+    font-size: 35px;
+    font-family: 'Parisienne', cursive;
+}
+
+
+li a:hover {
+    display: block;
+    color: rgb(20, 20, 20, 0.9);
+    cursor: pointer;
+}
+
+li:nth-child(1) {
+    
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li:nth-child(2) {
+    padding-right: 100px;
+}
+
+div.section {
+    background: url("../images/background.jpg");
+    opacity: 0.97;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typewrite{
+    color: white;
+    width: 22em;
+    border-right: 2px solid rgba(255,255,255);
+    font-size: 120%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.buttonAbout {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+.buttonAbout button {
+    width: 175px;
+    height: 50px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+}
+
+.buttonAbout button:hover {
+    transition: 1s;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.945);
+    border: solid 1px white;
+    color: #222;
+}
+
+section.content {
+    margin-top: 80px;
+}
+
+section.content h2{
+    font-size: 30px;
+    color: rgb(2, 208, 245);
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.turistPoint {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "turistImage" "blob";
+}
+
+.turistImage {
+    padding: 10px 50px;
+}
+.turistImage img {
+    margin-top: 40px;
+    width: 550px;
+    height: 425px;
+    border-radius: 25px;
+}
+
+.blob {
+    position: relative;
+}
+
+.blob h3 {
+    color: #222;
+    font-family: 'Archivo', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.blob p {
+    margin: 0 auto;
+    line-height: 35px;
+    color: #222;
+    font-size: 20px;
+    width: 500px;
+}
+.blob svg {
+    position: absolute;
+    bottom: 20px;
+}
+
+div.section2 {
+    background: url(https://wallpapercrafter.com/desktop/244942-pernambuco-brasil.jpg);
+    opacity: 0.97;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.turistPoint2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas: "blob2 turistImage2";
+}
+
+.turistImage2 {
+    grid-area: turistImage2;
+    padding: 10px 50px;
+}
+
+.turistImage2 img {
+    margin-top: 40px;
+    width: 550px;
+    height: 425px;
+    border-radius: 25px;
+}
+
+.blob2 {
+    grid-area: blob2;
+    position: relative;
+}
+
+.blob2 h3 {
+    color: #222;
+    font-family: 'Archivo', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.blob2 p {
+    margin: 0 auto;
+    line-height: 35px;
+    color: #222;
+    font-size: 20px;
+    width: 500px;
+}
+
+.blob2 svg {
+    position: absolute;
+    bottom: 20px;
+}
+
+div.section3 {
+    background: url("../images/background3.jpg");
+    opacity: 0.97;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.beachs {
+    margin: 50px 0px;
+    width: 100%;
+    height: auto;
+}
+
+section.beachs > h2 {
+    color: rgb(2, 208, 245);
+    font-size: 30px; 
+    font-weight: 500;
+    text-align: center;
+}
+
+.beach-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.beach {
+    display: grid;
+    grid-template-columns: 275px;
+    grid-template-rows: 80px 200px 200px ;
+    grid-template-areas: "name" "image" "text";
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.beach h1 {
+    color: #222;
+    grid-area: name;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.beach-image img {
+    grid-area: image;
+    border-radius: 15px;
+    width: 250px;
+    height: 200px;
+}
+
+.beach-description {
+    color: #222;
+    grid-area: text;
+}
+
+.beach-description p {
+    line-height: 25px;
+    font-size: 19px;
+    margin-top: 30px;
+    color: #222;
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+.anime {
+	opacity: 0;
+	transform: translate3d(-500px, 0, 0);
+	transition: .5s;
+}
+
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+footer span {
+    position: absolute;
+    top: 500%;
+    left: 35%;
+    color: white;
+    font-size: 25px;
+    z-index: 11;
+}
+
+footer svg {
+    z-index: 10;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
