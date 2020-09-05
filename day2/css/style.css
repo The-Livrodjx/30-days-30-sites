@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Parisienne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.98;
+}
+
+.wedding-page {
+    position: relative;
+    background-color: white;
+    margin: 40px auto;
+    width: 900px;
+    min-height: 900px;
+    border: solid 1px #ccc;
+    box-shadow: 5px 5px 10px 10px rgb(0, 0, 0, 0.2);
+}
+
+.wedding-content {
+    position: relative;
+    width: 97%;
+    min-height: 900px;
+    border: solid 1px #ccc;
+    margin: 15px;
+}
+
+.wedding-content img {
+    margin: 10px;
+}
+
+.wedding-content img:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.wedding-content img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.wedding-content h2 {
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    color: slategray;
+}
+
+.wedding-content h3 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    color: slategray;
+}
+
+.wedding-content h4 {
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    color: slategray;
+}
+
+.first-date {
+    margin-top: 60px;
+}
+
+.wedding-content p {
+    font-family: 'Parisienne', cursive;
+    font-size: 110px;
+    text-align: center;
+    color: goldenrod;
+}
