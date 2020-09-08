@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: system-ui, sans-serif;
+}
+
+header.cabecalho {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    min-height: 75px;
+    background-color: transparent;
+}
+
+button.menu-toggle {
+    display: none;
+    
+}
+
+nav {
+    position: fixed;
+    margin-top: 5px;
+    width: 100%;
+    min-height: 65px;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 14px 30px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+#brand {
+    font-family: Oswald;
+    position: absolute;
+    left: 0;
+    padding: 13px 25px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: Oswald;
+}
+
+#brand img {
+    width: 50px;
+    height: 50px;
+}
+
+#brand:hover {
+    border: none;
+}
+
+#contact {
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+#contact:hover {
+    transition: 2s;
+    border-radius: 10px;
+    border: 1px solid aqua;
+}
+
+li a:hover {
+    display: block;
+    color: whitesmoke;
+    cursor: pointer;
+    border-bottom: solid 1px rgb(255, 255, 255, 0.5);
+}
+
+li:nth-child(1) {
+    
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li:nth-child(2) {
+    padding-right: 80px;
+
+}
+
+div.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content-caption content-image";
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+div.content img {
+    padding-left: 10px;
+    height: 450px;
+}
+
+div.content-caption {
+    grid-area: content-caption;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+div.content-caption h2 {
+    font-size: 28px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+
+div.content-caption h2:nth-child(2){
+    padding-top: 0px;
+    margin-bottom: 40px;
+}
+
+div.content-caption p {
+    line-height: 25px;
+}
+
+div.content-caption button {
+    margin-top: 15px;
+    width: 175px;
+    height: 50px;
+    background-color: #5222d0;
+    border: solid 1px white;
+    color: white;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+
+#secondButton {
+    background-color: tomato;
+}
+
+div.content-caption button:hover {
+    transition: 1s;
+    cursor: pointer;
+    opacity: 0.7;
+    border: solid 1px white;
+    color: white;
+}
+
+div.content-caption button span {
+    vertical-align: top;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+div.content-caption button img {
+    width: 25px;
+    height: 20px;
+}
+
+div.content-image {
+    grid-area: content-image;
+    padding: 0px;
+}
