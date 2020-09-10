@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap');
+
+:root {
+    --section-background-color: #ca280c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* color: #FC4A1A; >>>> RED */
+
+section.header {
+    position: relative;
+    width: 100%;
+    min-height: 650px;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fff;
+    z-index: 1;
+}
+
+div.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 650px;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+header.cabecalho {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    min-height: 60px;
+    background-color: transparent;
+}
+
+button.menu-toggle {
+    display: none;
+    
+}
+
+nav {
+    position: absolute;
+    margin-top: 5px;
+    width: 100%;
+    min-height: 60px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 30px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+#brand {
+    position: absolute;
+    left: 0;
+    padding: 13px 25px;
+    padding-left: 50px;
+    font-size: 35px;
+    font-family: 'Parisienne', cursive;
+}
+
+#brand img {
+    width: 50px;
+    height: 50px;
+}
+
+#brand:hover {
+    border: none;
+}
+
+
+li a:hover {
+    display: block;
+    color: whitesmoke;
+    cursor: pointer;
+    border-bottom: solid 1px rgb(255, 255, 255, 0.5);
+}
+
+li:nth-child(1) {
+    
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li:nth-child(2) {
+    padding-right: 80px;
+
+}
+
+div.content {
+    text-align: center;
+    z-index: 3;
+    color: white;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:  translate(-50%);
+    padding-left: 50px;
+}
+
+div.content h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+div.content p {
+    line-height: 25px;
+    font-size: 17px;
+}
+
+div.content button {
+    margin-top: 40px;
+    font-size: 16px;
+    width: 175px;
+    height: 50px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+}
+
+div.content button:hover {
+    transition: 1s;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.945);
+    border: solid 1px white;
+    color: #222;
+}
+
+section.gym-services {
+    color: whitesmoke;
+    width: 100%;
+    min-height: 400px;
+    background-color: var(--section-background-color);
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+
+div.services-captions {
+    padding-top: 50px;
+    display: block;
+    text-align: center;
+}
+
+div.services-captions  h2 {
+    font-size: 27px;
+}
+
+div.services-captions  p {
+    padding-top: 15px;
+    font-size: 17px;
+
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color:var(--section-background-color);
+}
+
+.card-margin {
+    position: relative;
+    margin-top: 80px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 325px;
+    grid-template-rows: 200px 200px ;
+    grid-template-areas: "image" "text";
+    margin-right: 40px;
+    border-radius: 18px;
+    background: var(--section-background-color);
+    font-family: roboto;
+    text-align: center;
+    padding: 0px 0px;
+    
+}
+
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+    margin-top: -10px;
+    background-color: whitesmoke;
+    border-right: 1px solid whitesmoke;  
+    border-bottom: 1px solid whitesmoke;  
+    border-left: 1px solid whitesmoke; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+}
+
+.card-image {
+    grid-area: image;
+    background-size: cover;
+}
+
+.card-image img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 275px;
+    height: 200px;
+}
+
+.card-text p {
+    padding-top: 20px;
+    color: grey;
+    font-size:15px;
+    font-weight: 300;
+}
+
+.card-text h2 {
+    color: whitesmoke;
+    margin-top: 0px;
+    font-size: 25px;
+    padding: 15px 0px;
+    background-color: var(--section-background-color);
+}
+
+
+section.our-services {
+    color: whitesmoke;
+    width: 100%;
+    min-height: 400px;
+    background-color: #222;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    padding-bottom: 120px;
+}
+
+div.card-service {
+    display: grid;
+    grid-template-columns: 150px 350px;
+    grid-template-rows: 50px 50px;
+    grid-template-areas: 
+        ". service-text"
+        "service-image service-text"
+    ;
+}
+
+div.services {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+div.service-image {
+    grid-area: service-image;
+    padding-left: 50px;
+}
+
+div.service-text {
+    grid-area: service-text;
+}
+
+.service-image img {
+    width: 50px;
+    height: 50px;
+}
+
+section.fitness-studio {
+    color: whitesmoke;
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(34, 34, 34, 0.925);
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    padding-bottom: 120px;
+}
+
+div.fitness-content {
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "fitness-text fitness-image";
+}
+
+div.fitness-text {
+    grid-area: fitness-text;
+    padding-left: 30px;
+    text-align: left;
+}
+
+div.fitness-text p {
+    padding-bottom: 15px;
+}
+
+div.fitness-text button {
+    margin-top: 40px;
+    font-size: 16px;
+    width: 175px;
+    height: 50px;
+    background-color: #ca280c;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+div.fitness-text button:hover {
+    transition: 1s;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.945);
+    border: solid 1px white;
+    color: #222;
+}
+
+h4 {
+    padding-top: 15px;
+    vertical-align: top;
+}
+h4 img {
+    vertical-align: bottom;
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+}
+
+div.fitness-image {
+    grid-area: fitness-image;
+    padding-left: 30px;
+}
+
+div.fitness-image img {
+    width: 400px;
+    height: 300px;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+
+footer > span {
+    font-size: 20px;
+    font-weight: 500;
+}
