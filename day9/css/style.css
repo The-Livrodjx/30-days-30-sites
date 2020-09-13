@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Parisienne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: #000;
+}
+
+div.index-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 5px;
+    width: 1300px;
+    height: 650px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: top left;
+    border: 1px solid black;
+}
+
+div.form-content {
+    background-color: #f9f9f9;
+    width: 400px;
+    height: 100%;
+    padding: 40px 35px;
+}
+
+div.form-content img {
+    width: 50px;
+    height: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+}
+
+form h2 {
+    align-items: flex-start;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #222;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+form input {
+    align-items: flex-start;
+    width: 300px;
+    padding: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+    color: #222;
+    border: none;
+}
+
+form ul li, span{
+    display: inline-block;
+    color: #cbcbcb;
+    font-size: 13px;
+}
+
+input#checkbox {
+    all: unset;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 0px;
+    color:#eeeeee;
+    background-color: #eeeeee;
+}
+
+form button {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 30px auto;
+    
+    background-color: #f9f9f9;
+    border: 2px solid #eeeeee;
+}
+
+form button:hover {
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+
+ul.another-nav {
+    margin-top: 35px;
+    list-style-type: none;
+}
+
+ul.another-nav li a{
+    color: #cbcbcb;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+ul.another-nav li a:hover{
+    cursor: pointer;
+    color: #222;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+span.version {
+    float: right;
+    
+}
