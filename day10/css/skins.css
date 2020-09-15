@@ -1,0 +1,174 @@
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.cabecalho {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    min-height: 80px;
+    background-color: #111;
+}
+
+button.menu-toggle {
+    display: none;
+    
+}
+
+nav {
+    position: absolute;
+    margin-top: 5px;
+    width: 100%;
+    min-height: 60px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.menu li {
+    float: right;
+    
+}
+
+.menu li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 30px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+#brand {
+    position: absolute;
+    left: 0;
+    padding: 13px 25px;
+    padding-left: 50px;
+    font-size: 35px;
+    font-family: 'Parisienne', cursive;
+}
+
+#brand img {
+    width: 50px;
+    height: 50px;
+}
+
+#brand:hover {
+    border: none;
+}
+
+
+.menu li a:hover {
+    display: block;
+    color: whitesmoke;
+    cursor: pointer;
+    border-bottom: solid 1px rgb(255, 255, 255, 0.5);
+}
+
+.menu li:nth-child(1) {
+    
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu li:nth-child(2) {
+    padding-right: 80px;
+
+}
+
+div.index-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 120px;
+    width: 1300px;
+    height: 700px;
+    background-image: url("https://s2.glbimg.com/VJkKPK31nQbS3pfp6PXeYb7XtS4=/0x0:1215x717/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/g/n/xSepZKQLCW7ZKECGH1LA/darius.jpg");
+    background-size: cover;
+    background-position: top left;
+    border: 1px solid black;
+}
+
+div.skins-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    height: 100%;
+    
+}
+
+div.skins-content h2 {
+    letter-spacing: 0.05em;
+    font-family: "BeaufortforLOL-Bold";
+    font-weight: 800;
+    color: white;
+    padding: 20px;
+    margin: 40px 40px 0px;
+    font-size: 40px;
+    border-bottom: 1px solid
+}
+
+.swiper-container {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+/* section.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 120px;
+    background-color: #111111;
+    border-top: 2px solid rgba(51, 51, 51, 0.25);
+}
+
+section.footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.footer li {
+    margin-right: 15px;
+
+}
+
+section.footer li a {
+    margin: 0 16px;
+    padding: 0px;
+    text-decoration: none;
+    color: #7E7E7E;
+    transition: all 0.2s linear;
+}
+
+section.footer img {
+    width: 300px;
+    height: 200px;
+} */

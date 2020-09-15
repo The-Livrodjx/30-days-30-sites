@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/skins.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <section class="header">
+
+                <div class="overlay"></div>
+    
+                <header class="cabecalho">
+    
+                    <button class="menu-toggle">
+                        <i class="fa fa-lg fa-bars"></i>
+                    </button>
+    
+                    <nav class="menu">
+                        <ul>
+                            <li>
+                                <a id="brand"><img src="https://d33jl3tgfli0fm.cloudfront.net/helix/images/games/league-of-legends/icon.png" alt=""></a>
+                            </li>
+    
+                            <li>
+                                <a target="_blank" href="https://github.com/The-Livrodjx" id="team">Skills</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://github.com/The-Livrodjx/30-days-30-sites/tree/master/day1" id="portfolio">Skins</a>
+                            </li>
+                            <li>
+                                <a href="./about.html" id="about">About</a>
+                            </li>
+                            <li>
+                                <a href="../index.html" id="home">Home</a>
+                            </li>
+    
+                        </ul>
+                    </nav>
+                </header>
+        </section>
+
+
+        <div class="index-page">
+            <div class="skins-content">
+                
+                <h2>SKINS DISPONÍVEIS</h2>
+
+
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img id="img1" onclick="changeImage('img1')" src="https://s2.glbimg.com/VJkKPK31nQbS3pfp6PXeYb7XtS4=/0x0:1215x717/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/g/n/xSepZKQLCW7ZKECGH1LA/darius.jpg" width="100px" height="100px"></div>
+                        <div class="swiper-slide"><img id="img2" onclick="changeImage('img2')" src="https://www.coxinhanerd.com.br/wp-content/uploads/2018/06/THUMB-136.jpg" width="100px" height="100px"></div>
+                        <div class="swiper-slide"><img id="img3" onclick="changeImage('img3')" src="https://i.pinimg.com/originals/53/c2/c3/53c2c3f2c0533c506d3c7e3a911c631e.jpg" width="100px" height="100px"></div>
+    
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+        
+            </div>
+        </div>
+
+        <!-- <section class="footer">
+            <ul class="links">
+                <li><a href="">SOBRE LEAGUE OF LEGENDS</a></li>
+                <li><a href="">AJUDE-NOS A MELHORAR</a></li>
+                <li><a href="">STATUS DE SERVIÇO</a></li>
+                <li><a href="">SUPORTE</a></li>
+            </ul>
+
+            <img src="https://purepng.com/public/uploads/medium/riot-games-new-logo-pep.png" alt="" srcset="">
+        </section> -->
+
+        <script>
+            var mySwiper = new Swiper('.swiper-container', {
+                // Optional parameters
+                direction: 'vertical',
+                loop: true,
+
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+        
+                // And if we need scrollbar
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+            })
+
+            function changeImage(imageID) {
+                const backgrounds = document.querySelector('div.index-page')
+                
+                const image = document.querySelector(`#${imageID}`)
+                const imageSrc = image.getAttribute('src')
+
+                let oldBg = `${backgrounds.style.backgroundImage}`
+                let newBg = backgrounds.style.backgroundImage = `url("${imageSrc}")`
+                
+                console.log(oldBg, newBg)
+
+                newBg != oldBg ? newBg : oldBg
+                
+            }           
+        </script>
+    </body>
+</html>
