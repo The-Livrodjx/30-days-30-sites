@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+div.main-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+ul.nav {
+    position: relative;
+    display: flex;
+}
+
+ul.nav li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}
+
+li a {
+    display: inline-block;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 10px 10px; 
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+li a:hover {
+    cursor: pointer;
+}
+
+li img {
+    margin: 0px 10px;
+    transform: scale(1.1);
+}
+
+li button {
+    display: inline-block;
+    color: #fff;
+    background-color: #034ff4;
+    text-align: center;
+    padding: 7px 20px;
+    margin-left: 7px; 
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+}
+
+li button:hover {
+    cursor: pointer;
+}
+
+section.content {
+    position: relative;
+}
+
+section.content img.google {
+    margin-top: -150px;
+    margin-bottom: 100px;
+    transform: scale(1);
+}
+
+div.input {
+    position: absolute;
+    width: 700px;
+    height: 50px;
+    margin-left: -225px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+div.input input {
+    position: absolute;
+    left: 45px;
+    width: 600px;
+    height: 45px;
+    border: none;
+}
+
+div.input input:focus {
+    outline: none;
+}
+
+div.input img.search {
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+div.input img.mic {
+    vertical-align: middle;
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+div.buttons {
+    position: absolute;
+    top: 100px;
+    width: 450px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+div.buttons button {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+div.buttons button:hover {
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    border-top: 1px solid rgb(236, 236, 236);
+}
+
+ul.footer {
+    position: relative;
+    display: flex;
+}
+
+ul.footer li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}
+
+ul.footer li a {
+    display: inline-block;
+    color: rgb(110, 110, 110);
+    text-align: center;
+    padding: 10px 10px; 
+    text-decoration: none;
+    font-size: 17px;
+}
