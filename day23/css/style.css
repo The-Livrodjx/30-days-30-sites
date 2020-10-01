@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.banner {
+    width: 100%;
+    min-height: 100vh;
+    background: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.banner header {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 5px;
+}
+
+header ul.nav {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    color: #222;
+}
+
+a.logo {
+    position: relative;
+    
+}
+
+a.logo img {
+    transform: scale(0.6);
+}
+
+header a.cart {
+    position: relative;
+    margin-right: 10px;
+}
+
+header a.cart img {
+    transform: scale(0.6);
+}
+
+header ul.nav li {
+    position: relative;
+    list-style-type: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+div.content {
+    position: absolute;
+    top: 27%;
+    left: 13%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+div.content h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+
+div.content p {
+    font-size: 20px;
+    color: #6a7199;
+}
+
+div.content a.button {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+div.buttons-wrap img{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+div.buttons-wrap img:hover {
+    cursor: pointer;
+}
+
+img.main-image {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 140px;
+}
+
+div.social-links {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+}
+
+div.social-links a {
+    text-decoration: none;
+    color:  #6a7199;
+    padding-right: 20px;
+    font-size: 14px;
+}
