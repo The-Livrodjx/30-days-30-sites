@@ -27,3 +27,4 @@ day22: <a href="https://the-livrodjx.github.io/30-days-30-sites/day22/" target="
 day23: <a href="https://the-livrodjx.github.io/30-days-30-sites/day23/" target="_blank">View</a><br><br>
 day24: <a href="https://the-livrodjx.github.io/30-days-30-sites/day24/" target="_blank">View</a><br><br>
 day25: <a href="https://the-livrodjx.github.io/30-days-30-sites/day25/" target="_blank">View</a><br><br>
+day26: <a href="https://the-livrodjx.github.io/30-days-30-sites/day26/" target="_blank">View</a><br><br>
