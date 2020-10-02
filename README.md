@@ -2,27 +2,28 @@
 
 
 
-day1: https://the-livrodjx.github.io/30-days-30-sites/day1/ <br>
-day2: https://the-livrodjx.github.io/30-days-30-sites/day2/ <br>
-day3: https://the-livrodjx.github.io/30-days-30-sites/day3/ <br>
-day4: https://the-livrodjx.github.io/30-days-30-sites/day4/ <br>
-day5: https://the-livrodjx.github.io/30-days-30-sites/day5/ <br>
-day6: https://the-livrodjx.github.io/30-days-30-sites/day6/ <br>
-day7: https://the-livrodjx.github.io/30-days-30-sites/day7/ <br>
-day8: https://the-livrodjx.github.io/30-days-30-sites/day8/ <br>
-day9: https://the-livrodjx.github.io/30-days-30-sites/day9/ <br>
-day10: https://the-livrodjx.github.io/30-days-30-sites/day10/ <br>
-day11: https://the-livrodjx.github.io/30-days-30-sites/day11/ <br>
-day12: https://the-livrodjx.github.io/30-days-30-sites/day12/ <br>
-day13: https://the-livrodjx.github.io/30-days-30-sites/day13/ <br>
-day14: https://the-livrodjx.github.io/30-days-30-sites/day14/ <br>
-day15: https://the-livrodjx.github.io/30-days-30-sites/day15/ <br>
-day16: https://the-livrodjx.github.io/30-days-30-sites/day16/ <br>
-day17: https://the-livrodjx.github.io/30-days-30-sites/day17/ <br>
-day18: https://the-livrodjx.github.io/30-days-30-sites/day18/ <br>
-day19: https://the-livrodjx.github.io/30-days-30-sites/day19/ <br>
-day20: https://the-livrodjx.github.io/30-days-30-sites/day20/ <br>
-day21: https://the-livrodjx.github.io/30-days-30-sites/day21/  <br>
-day22: https://the-livrodjx.github.io/30-days-30-sites/day22/  <br>
-day23: https://the-livrodjx.github.io/30-days-30-sites/day23/ <br>
-day24: https://the-livrodjx.github.io/30-days-30-sites/day24/ <br>
+day1: <a href="https://the-livrodjx.github.io/30-days-30-sites/day1/" target="_blank">View</a><br><br>
+day2: <a href="https://the-livrodjx.github.io/30-days-30-sites/day2/" target="_blank">View</a><br><br>
+day3: <a href="https://the-livrodjx.github.io/30-days-30-sites/day3/" target="_blank">View</a><br><br>
+day4: <a href="https://the-livrodjx.github.io/30-days-30-sites/day4/" target="_blank">View</a><br><br>
+day5: <a href="https://the-livrodjx.github.io/30-days-30-sites/day5/" target="_blank">View</a><br><br>
+day6: <a href="https://the-livrodjx.github.io/30-days-30-sites/day6/" target="_blank">View</a><br><br>
+day7: <a href="https://the-livrodjx.github.io/30-days-30-sites/day7/" target="_blank">View</a><br><br>
+day8: <a href="https://the-livrodjx.github.io/30-days-30-sites/day8/" target="_blank">View</a><br><br>
+day9: <a href="https://the-livrodjx.github.io/30-days-30-sites/day9/" target="_blank">View</a><br><br>
+day10: <a href="https://the-livrodjx.github.io/30-days-30-sites/day10/" target="_blank">View</a><br><br>
+day11: <a href="https://the-livrodjx.github.io/30-days-30-sites/day11/" target="_blank">View</a><br><br>
+day12: <a href="https://the-livrodjx.github.io/30-days-30-sites/day12/" target="_blank">View</a><br><br>
+day13: <a href="https://the-livrodjx.github.io/30-days-30-sites/day13/" target="_blank">View</a><br><br>
+day14: <a href="https://the-livrodjx.github.io/30-days-30-sites/day14/" target="_blank">View</a><br><br>
+day15: <a href="https://the-livrodjx.github.io/30-days-30-sites/day15/" target="_blank">View</a><br><br>
+day16: <a href="https://the-livrodjx.github.io/30-days-30-sites/day16/" target="_blank">View</a><br><br>
+day17: <a href="https://the-livrodjx.github.io/30-days-30-sites/day17/" target="_blank">View</a><br><br>
+day18: <a href="https://the-livrodjx.github.io/30-days-30-sites/day18/" target="_blank">View</a><br><br>
+day19: <a href="https://the-livrodjx.github.io/30-days-30-sites/day19/" target="_blank">View</a><br><br>
+day20: <a href="https://the-livrodjx.github.io/30-days-30-sites/day20/" target="_blank">View</a><br><br>
+day21: <a href="https://the-livrodjx.github.io/30-days-30-sites/day21/" target="_blank">View</a><br><br>
+day22: <a href="https://the-livrodjx.github.io/30-days-30-sites/day22/" target="_blank">View</a><br><br>
+day23: <a href="https://the-livrodjx.github.io/30-days-30-sites/day23/" target="_blank">View</a><br><br>
+day24: <a href="https://the-livrodjx.github.io/30-days-30-sites/day24/" target="_blank">View</a><br><br>
+day25: <a href="https://the-livrodjx.github.io/30-days-30-sites/day25/" target="_blank">View</a><br><br>
