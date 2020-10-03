@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+        
+    </head>
+    <body>
+
+        <div class="swiper-container">
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="https://pm1.narvii.com/6618/50fbd84de91a2ad720ef267a9586d65cfe6802a2_hq.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="https://vignette.wikia.nocookie.net/deathnote/images/d/d5/Death_note_seven_minutes_in_heaven_l_by_vampiregodesnyx-d68mx80.png/revision/latest/top-crop/width/300/height/300?cb=20170924013712&path-prefix=pt" alt=""></div>
+              <div class="swiper-slide"><img src="https://s.aficionados.com.br/imagens/l-death-note_f.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSD2of8JmedsWkeOHCiOxQ1wsu7r_AFinR2KltosDAJfkX9trx_MHFKbsCurukOrIsvSVzahfSaGeQbnQgNgsQUcPSVU3189Jklwsk-&usqp=CAU&ec=45707745" alt=""></div>
+              <div class="swiper-slide"><img src="https://vignette.wikia.nocookie.net/codegeass/images/7/72/Lelouch.jpg/revision/latest?cb=20170902225408&path-prefix=pt-br" alt=""></div>
+              <div class="swiper-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRW6CCRSLXaYGXPV5h8EQbVxvNCbpsbJzfLMROcbzRkvTG29FuWYfWScIGXHOE0FBu87qAfqVRxvvUunfsQU_hF1V0FyFnRt7LlQJ-s&usqp=CAU&ec=45707745" alt=""></div>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        
+
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                rotate: 20,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: true,
+                },
+                loop: true,
+            });
+        </script>
+    </body>
+</html>
