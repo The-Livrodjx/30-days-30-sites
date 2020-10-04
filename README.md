@@ -27,4 +27,8 @@ day22: <a href="https://the-livrodjx.github.io/30-days-30-sites/day22/" target="
 day23: <a href="https://the-livrodjx.github.io/30-days-30-sites/day23/" target="_blank">View</a><br><br>
 day24: <a href="https://the-livrodjx.github.io/30-days-30-sites/day24/" target="_blank">View</a><br><br>
 day25: <a href="https://the-livrodjx.github.io/30-days-30-sites/day25/" target="_blank">View</a><br><br>
-day24: <a href="https://the-livrodjx.github.io/30-days-30-sites/day26/" target="_blank">View</a><br><br>
+day26: <a href="https://the-livrodjx.github.io/30-days-30-sites/day26/" target="_blank">View</a><br><br>
+day27: <a href="https://the-livrodjx.github.io/30-days-30-sites/day27/" target="_blank">View</a><br><br>
+day28: <a href="https://the-livrodjx.github.io/30-days-30-sites/day28/" target="_blank">View</a><br><br>
+day29: <a href="https://the-livrodjx.github.io/30-days-30-sites/day29/" target="_blank">View</a><br><br>
+day30: <a href="https://the-livrodjx.github.io/30-days-30-sites/day30/" target="_blank">View</a><br><br>
